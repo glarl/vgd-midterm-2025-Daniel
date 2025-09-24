@@ -267,8 +267,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.08028354, y: 0.84543496, z: -0.13279808, w: -0.51103723}
-  m_LocalPosition: {x: 12.007272, y: 6.5893435, z: 7.3636923}
+  m_LocalRotation: {x: 0.2376859, y: 0, z: 0, w: 0.97134215}
+  m_LocalPosition: {x: 0, y: 9.044, z: -14.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -548,6 +548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 818713110}
   - component: {fileID: 818713109}
+  - component: {fileID: 818713111}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -575,7 +576,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 1904838884}
+    TrackingTarget: {fileID: 1041656740}
     LookAtTarget: {fileID: 1041656740}
     CustomLookAtTarget: 1
   Lens:
@@ -606,13 +607,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818713108}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.08028355, y: 0.84543496, z: -0.1327981, w: -0.51103723}
-  m_LocalPosition: {x: 12.007272, y: 6.5893435, z: 7.3636923}
+  m_LocalRotation: {x: 0.2376859, y: 0, z: 0, w: 0.97134215}
+  m_LocalPosition: {x: 0, y: 9.044, z: -14.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 27.5, y: 0, z: 0}
+--- !u!114 &818713111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818713108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b617507da6d07e749b7efdb34e1173e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineFollow
+  TrackerSettings:
+    BindingMode: 4
+    PositionDamping: {x: 1, y: 1, z: 1}
+    AngularDampingMode: 0
+    RotationDamping: {x: 1, y: 1, z: 1}
+    QuaternionDamping: 1
+  FollowOffset: {x: 0, y: 7.47, z: -14.98}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
