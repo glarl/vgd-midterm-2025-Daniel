@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 818713109}
   - component: {fileID: 818713111}
   m_Layer: 0
-  m_Name: CinemachineCamera
+  m_Name: FpsCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -863,6 +863,19 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4262325676088707599, guid: 217b09fa27724ad419130d854abac1f4, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"fpscam","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262325676088707599, guid: 217b09fa27724ad419130d854abac1f4, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262325676088707599, guid: 217b09fa27724ad419130d854abac1f4, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 818713108}
     - target: {fileID: 4423716643092721254, guid: 217b09fa27724ad419130d854abac1f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -906,6 +919,10 @@ PrefabInstance:
     - target: {fileID: 5274564624217709325, guid: 217b09fa27724ad419130d854abac1f4, type: 3}
       propertyPath: m_Name
       value: Capsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746928108700296901, guid: 217b09fa27724ad419130d854abac1f4, type: 3}
+      propertyPath: m_Constraints
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 5793805272178428422, guid: 217b09fa27724ad419130d854abac1f4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
