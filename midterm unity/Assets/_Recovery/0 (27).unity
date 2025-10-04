@@ -1543,6 +1543,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6508330386708913434, guid: 9cbc300ff33b9df4389c42e2b1cd295b, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"direction","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1560,26 +1565,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1343016373482150797, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_Name
       value: Playercontroller
@@ -1591,10 +1576,6 @@ PrefabInstance:
     - target: {fileID: 1343016373482150797, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_TagString
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3710765614046742418, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7267369829414978894, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1635,10 +1616,6 @@ PrefabInstance:
     - target: {fileID: 7267369829414978894, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7571115738269791314, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

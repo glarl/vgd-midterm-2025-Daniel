@@ -1560,26 +1560,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 473209688430063208, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1343016373482150797, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_Name
       value: Playercontroller
@@ -1591,10 +1571,6 @@ PrefabInstance:
     - target: {fileID: 1343016373482150797, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_TagString
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3710765614046742418, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7267369829414978894, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1635,10 +1611,6 @@ PrefabInstance:
     - target: {fileID: 7267369829414978894, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7571115738269791314, guid: 1080db6078c5b74458a7220a9d76f508, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
