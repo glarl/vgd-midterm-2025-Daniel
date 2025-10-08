@@ -2492,10 +2492,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Properbullet
       objectReference: {fileID: 0}
-    - target: {fileID: 7138736895488939930, guid: 128a4728becbf3c41a9f94456faa25a2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
